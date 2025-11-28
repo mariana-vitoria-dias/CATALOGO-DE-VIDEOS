@@ -1,73 +1,66 @@
-/* Estilos gerais */
+/* ----------------------------- */
+/* 🌱 COMEÇO - Estilo geral da página */
+/* ----------------------------- */
+
 body {
-    font-family: 'Poppins', sans-serif;
     margin: 0;
-    background-color: #fff0f6;
-    color: #333;
+    font-family: Arial, sans-serif;
+    background: #e8f5e9;      /* Verde claro */
+    color: #2e3d2f;           /* Verde escuro */
 }
 
-/* Cabeçalho */
 header {
+    background: #2e7d32;      /* Verde forte */
+    padding: 20px;
     text-align: center;
-    padding: 2rem 1rem;
-    background: linear-gradient(135deg, #ff7eb3, #ff758c);
     color: white;
 }
 
-header h1 {
-    margin-bottom: 0.5rem;
+h1 {
+    margin: 0;
 }
 
-/* Catálogo */
-.catalogo {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    padding: 2rem;
-}
-
-.item {
-    background: white;
+section {
+    padding: 40px;
+    margin: 20px;
+    background: #ffffff;
     border-radius: 10px;
-    padding: 1rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.item:hover {
-    transform: scale(1.03);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+/* ----------------------------- */
+/* 🌲 MEIO - Estilo específico das seções */
+/* ----------------------------- */
+
+#comeco h2 {
+    color: #1b5e20;           /* Verde escuro */
 }
 
-.item h2 {
-    color: #e91e63;
-    text-align: center;
+#meio h2 {
+    color: #2e7d32;           /* Verde médio */
 }
 
-/* Vídeos do YouTube */
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* Proporção 16:9 */
-    height: 0;
-    overflow: hidden;
-    border-radius: 8px;
-    margin: 1rem 0;
+#fim h2 {
+    color: #388e3c;           /* Verde vibrante */
 }
 
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
+p {
+    line-height: 1.7;
+    font-size: 18px;
 }
 
-/* Rodapé */
+/* ----------------------------- */
+/* 🌟 FIM - Rodapé e finalização */
+/* ----------------------------- */
+
 footer {
     text-align: center;
-    background-color: #ff7eb3;
+    background: #2e7d32;
     color: white;
-    padding: 1rem;
+    padding: 15px;
+    margin-top: 30px;
 }
 
+footer p {
+    margin: 0;
+}
